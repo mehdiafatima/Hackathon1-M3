@@ -23,7 +23,7 @@ form input,
 form textarea {
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ddd;
+    border: 1px solid #dddddd;
     border-radius: 5px;
 }
 
@@ -36,11 +36,11 @@ form button {
     cursor: pointer;
 }
 
-
-.resume {
-    display: flex;
-    flex-direction: row;
+.container .resume-form {
+     color: blue;
 }
+
+
 
 .top-section {
     display: flex;
@@ -61,6 +61,8 @@ form button {
 
 .top-section .name-title {
     margin-left: 50px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .top-section .name {
